@@ -13,6 +13,7 @@ db:
     ## KEY: "value"
     MYSQL_DATABASE: wordpress
     MYSQL_USER: wordpress
+    MARIADB_ROOT_PASSWORD: wordpress
     APP_ENV: dev
   containerPorts:
       mysql: 3306
