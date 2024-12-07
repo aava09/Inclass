@@ -8,7 +8,8 @@ wp:
   image:
     repository: wordpress
     tag: latest
-    pullPolicy: Always
+    imagePullPolicy: IfNotPresent
+
   replicas: 10
   configmap:
     ## KEY: "value"

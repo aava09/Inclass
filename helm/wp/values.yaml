@@ -7,8 +7,9 @@ wp:
     id: c0911181
   image:
     repository: wordpress
-    tag: v2
-    pullPolicy: Always
+    tag: latest
+    imagePullPolicy: IfNotPresent
+
   replicas: 5
   rollingUpdate:
     maxSurge: 1
