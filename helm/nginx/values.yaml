@@ -3,7 +3,7 @@ namespace: proxy
 image:
   repository: nginx
   tag: latest
-  pullPolicy: Always
+  imagePullPolicy: IfNotPresent
 service:
   type: LoadBalancer
   port: 80
