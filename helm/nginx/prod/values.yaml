@@ -1,7 +1,7 @@
 replicaCount: 3
 namespace: prod-proxy
 image:
-  repository: gcr.io/evident-flame-400500/nginx-proxy
+  repository: nginx
   tag: latest
   pullPolicy: Always
 service:

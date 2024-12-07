@@ -1,7 +1,7 @@
 replicaCount: 2
 namespace: stage-proxy
 image:
-  repository: gcr.io/evident-flame-400500/nginx-proxy
+  repository: nginx
   tag: latest
   pullPolicy: Always
 service:
